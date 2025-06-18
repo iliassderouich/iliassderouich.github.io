@@ -1,0 +1,64 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(270deg, #1e3c72, #2a5298);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+nav a, nav button {
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.banner {
+  padding: 4rem;
+  text-align: center;
+  background: rgba(255,255,255,0.05);
+}
+section {
+  padding: 2rem;
+}
+.card {
+  background: rgba(255,255,255,0.1);
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 6px;
+}
+.skill-bar {
+  background: #555;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.skill-bar span {
+  display: block;
+  background: #6fb1fc;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+.hidden {
+  display: none;
+}
+#admin-panel {
+  background: rgba(0,0,0,0.7);
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 8px;
+}
